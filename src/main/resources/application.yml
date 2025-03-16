@@ -24,5 +24,7 @@ spring:
 logging:
   level:
     # 하이버네이트가 생성하는 SQL을 디버그 모드로 콘솔에 출력해줌 (Logger를 통해 찍어줌)
-    org.hibernate.SQL: debug
-    org.hibernate.orm.jdbc.bind: trace
+    org.hibernate.SQL: off
+    org.hibernate.type.descriptor.sql: OFF  # ✅ 바인딩된 값 로그도 비활성화
+    jdbc.sqlonly: OFF
+    p6spy: DEBUG  # ✅ P6Spy 로그만 활성화
