@@ -1,5 +1,6 @@
 package jpabook.jpashop;
 
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,8 +20,9 @@ class MemberRepositoryTest {
 
     @Test
     @Transactional
+    @DisplayName("testMember")
     @Rollback(false)
-    void testMember() throws Exception {
+    void testMember() {
         // given
         Member member = new Member();
         member.setUsername("memberA");
