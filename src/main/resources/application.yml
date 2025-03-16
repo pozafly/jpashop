@@ -18,7 +18,7 @@ spring:
       ddl-auto: create
     properties:
       hibernate:
-        #        show_sql: true -> system.out으로 로그를 찍음
+        # show_sql: true -> system.out으로 로그를 찍음
         format_sql: true
 
 logging:
