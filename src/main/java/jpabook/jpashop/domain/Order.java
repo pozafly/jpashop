@@ -1,4 +1,4 @@
-package jpabook.jpashop.domin;
+package jpabook.jpashop.domain;
 
 import jakarta.persistence.*;
 import lombok.AccessLevel;

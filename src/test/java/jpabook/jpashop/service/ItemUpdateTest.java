@@ -1,7 +1,7 @@
 package jpabook.jpashop.service;
 
 import jakarta.persistence.EntityManager;
-import jpabook.jpashop.domin.item.Book;
+import jpabook.jpashop.domain.item.Book;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

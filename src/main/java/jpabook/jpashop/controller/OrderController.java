@@ -1,8 +1,8 @@
 package jpabook.jpashop.controller;
 
-import jpabook.jpashop.domin.Member;
-import jpabook.jpashop.domin.Order;
-import jpabook.jpashop.domin.item.Item;
+import jpabook.jpashop.domain.Member;
+import jpabook.jpashop.domain.Order;
+import jpabook.jpashop.domain.item.Item;
 import jpabook.jpashop.repository.OrderSearch;
 import jpabook.jpashop.service.ItemService;
 import jpabook.jpashop.service.MemberService;

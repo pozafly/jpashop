@@ -1,6 +1,6 @@
 package jpabook.jpashop.repository;
 
-import jpabook.jpashop.domin.OrderStatus;
+import jpabook.jpashop.domain.OrderStatus;
 import lombok.Data;
 
 @Data
