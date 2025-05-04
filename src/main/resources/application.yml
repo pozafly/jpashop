@@ -20,6 +20,7 @@ spring:
       hibernate:
         # show_sql: true -> system.out으로 로그를 찍음
         format_sql: true
+        default_batch_fetch_size: 100
 
 logging:
   level:
